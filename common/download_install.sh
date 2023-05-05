@@ -19,14 +19,9 @@ GITHUB_BRANCH_OR_TAG=main
         apt upgrade -y
         apt install -y wget python3-pip dialog unzip
         rm -Rf 'main.zip'
-        mkdir -p /opt/$GITHUB_REPOSITORY
-        
-r
-        wget https://github.com/clecio81/hiddify-config/archive/refs/heads/main.zip
-        unzip -o 'main.zip'
-        rm -Rf 'main.zip'
-        cp hiddify-config-main /opt/$GITHUB_REPOSITORY
-        rm -Rf hiddify-config-main
+        mkdir -p /opt/
+        cd /opt/
+        git clone "https://github.com/clecio81/hiddify-config"
         cd /opt/$GITHUB_REPOSITORY
         
         bash install.sh
