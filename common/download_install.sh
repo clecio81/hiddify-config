@@ -9,7 +9,7 @@ if [ "$(id -u)" -ne 0 ]; then
         exit 1
 fi
 
-echo "we are going to download needed files:)"
+echo "vamos baixar os arquivos necessários:)"
 GITHUB_REPOSITORY=hiddify-config
 GITHUB_USER=clecio81
 GITHUB_BRANCH_OR_TAG=main
