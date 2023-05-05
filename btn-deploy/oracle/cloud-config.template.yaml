@@ -11,7 +11,7 @@ packages:
 
 runcmd:
   - cd /opt
-  - git clone https://github.com/hiddify/hiddify-config/
+  - git clone https://github.com/clecio81/hiddify-config/
   - cd hiddify-config
   - echo "ADMIN_SECRET=${guid}" >config.env
   - echo "MAIN_DOMAIN=${domain}" >>config.env
