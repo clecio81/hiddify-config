@@ -21,7 +21,7 @@ GITHUB_BRANCH_OR_TAG=main
       
         mkdir -p /opt/$GITHUB_REPOSITORY
         git clone "https://github.com/clecio81/hiddify-config"
-        mv hiddify-config /opt/
+        cp hiddify-config /opt/
         cd /opt/$GITHUB_REPOSITORY
         
         bash install.sh
