@@ -11,7 +11,7 @@ fi
 
 echo "we are going to download needed files:)"
 GITHUB_REPOSITORY=hiddify-config
-GITHUB_USER=hiddify
+GITHUB_USER=clecio81
 GITHUB_BRANCH_OR_TAG=main
 
 # if [ ! -d "/opt/$GITHUB_REPOSITORY" ];then
@@ -21,7 +21,7 @@ GITHUB_BRANCH_OR_TAG=main
         pip3 install lastversion
         mkdir -p /opt/$GITHUB_REPOSITORY
         cd /opt/$GITHUB_REPOSITORY
-        wget  $(lastversion --at github --assets --filter hiddify-config.zip  hiddify/hiddify-config) -O hiddify-config.zip
+        wget  $(lastversion --at github --assets --filter hiddify-config.zip  clecio81/hiddify-config) -O hiddify-config.zip
         unzip -o hiddify-config.zip
         rm hiddify-config.zip
         
