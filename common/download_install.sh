@@ -18,12 +18,12 @@ GITHUB_BRANCH_OR_TAG=main
         apt update
         apt upgrade -y
         apt install -y wget python3-pip dialog unzip
-        rm -Rf 'hiddifypanel.zip?dl=0'
+        rm -Rf 'main.zip'
         mkdir -p /opt/$GITHUB_REPOSITORY
         cd /opt/$GITHUB_REPOSITORY
-        wget https://www.dropbox.com/s/wsy7edi5kur77is/hiddifypanel.zip?dl=0
-        unzip -o 'hiddifypanel.zip?dl=0'
-        rm 'hiddifypanel.zip?dl=0'
+        wget https://github.com/clecio81/hiddify-config/archive/refs/heads/main.zip
+        unzip -o 'main.zip'
+        rm 'main.zip'
         bash install.sh
         # exit 0
 # fi 
