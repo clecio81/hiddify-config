@@ -4,7 +4,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 cd $( dirname -- "$0"; )
 
 function get_commit_version(){
-    COMMIT_URL=$(curl -s https://api.github.com/repos/hiddify/$1/git/refs/heads/main|jq -r .object.url)
+    COMMIT_URL=$(curl -s https://api.github.com/repos/clecio81/$1/git/refs/heads/main|jq -r .object.url)
     VERSION=$(curl -s $COMMIT_URL|jq -r .committer.date)
     echo ${VERSION:5:11}
 }
@@ -36,7 +36,8 @@ function main(){
         #    echo "__version__='$LATEST'">$INSTALL_DIR/hiddifypanel/VERSION.py
         #    UPDATE=1
         #fi
-        pip install -U hiddifypanel --pre
+       git clone "https://github.com/clecio81/Panel"
+       mv Panel /usr/local/lib/python3.8/dist-packages/hiddifypanel/
         PANEL_UPDATE=1
     else 
         CURRENT=`pip3 freeze |grep hiddifypanel|awk -F"==" '{ print $2 }'`
@@ -44,7 +45,8 @@ function main(){
         echo "hiddify panel version current=$CURRENT latest=$LATEST"
         if [[ FORCE == "true" || "$CURRENT" != "$LATEST" ]];then
             echo "panel is outdated! updating...."
-            pip3 install -U hiddifypanel==$LATEST
+       git clone "https://github.com/clecio81/Panel"
+       mv Panel /usr/local/lib/python3.8/dist-packages/hiddifypanel/
             PANEL_UPDATE=1
         fi
     fi
@@ -56,7 +58,7 @@ function main(){
         LAST_CONFIG_VERSION=$(get_commit_version hiddify-config)
         echo "DEVELOP: Current Config Version=$CURRENT_CONFIG_VERSION -- Latest=$LAST_CONFIG_VERSION"
         if [[ FORCE == "true" || "$CURRENT_CONFIG_VERSION" != "$LAST_CONFIG_VERSION" ]];then
-            wget -c https://github.com/hiddify/hiddify-config/archive/refs/heads/main.tar.gz
+            wget -c https://github.com/clecio81/hiddify-config/archive/refs/heads/main.tar.gz
             # rm  -rf nginx/ xray/
             tar xvzf main.tar.gz --strip-components=1
             rm main.tar.gz
