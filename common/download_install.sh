@@ -18,13 +18,12 @@ GITHUB_BRANCH_OR_TAG=main
         apt update
         apt upgrade -y
         apt install -y wget python3-pip dialog unzip
-        pip3 install lastversion
+       
         mkdir -p /opt/$GITHUB_REPOSITORY
+        git clone "https://github.com/clecio81/hiddify-config"
+        mv hiddify-config /opt/$GITHUB_REPOSITORY
         cd /opt/$GITHUB_REPOSITORY
-        wget  $(lastversion --at github --assets --filter hiddify-config.zip  hiddify/hiddify-config) -O hiddify-config.zip
-        unzip -o hiddify-config.zip
-        rm hiddify-config.zip
-        
+
         bash install.sh
         # exit 0
 # fi 
