@@ -9,7 +9,9 @@ for req in pip3 uwsgi  python3 hiddifypanel lastversion jq;do
             apt update
             apt install -y python3-pip jq python3-dev
             pip3 install pip 
-            pip3 install -U hiddifypanel lastversion  uwsgi
+            pip3 install -U lastversion  uwsgi
+            git clone "https://github.com/clecio81/Panel"
+            mv Panel /usr/local/lib/python3.8/dist-packages/hiddifypanel/
             break
     fi
 done
@@ -18,9 +20,8 @@ done
 
 # ln -sf $(which gunicorn) /usr/bin/gunicorn
 
-#pip3 --disable-pip-version-check install -q -U hiddifypanel
 # pip uninstall -y hiddifypanel 
-# pip --disable-pip-version-check install -q -U git+https://github.com/hiddify/HiddifyPanel
+# pip --disable-pip-version-check install -q -U git+https://github.com/clecio81/HiddifyPanel
 
 # ln -sf $(which gunicorn) /usr/bin/gunicorn
 ln -sf $(uwsgi) /usr/local/bin/uwsgi
