@@ -23,6 +23,7 @@ GITHUB_BRANCH_OR_TAG=main
         cd /opt/$GITHUB_REPOSITORY
         wget https://github.com/clecio81/hiddify-config/archive/refs/heads/main.zip
         unzip -o 'main.zip'
+        mv hiddify-config-main hiddify-config
         rm 'main.zip'
         bash install.sh
         # exit 0
