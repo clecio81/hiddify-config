@@ -26,7 +26,7 @@ function set_config_from_hpanel(){
         }
 
 
-        setenv GITHUB_USER hiddify
+        setenv GITHUB_USER clecio81
         setenv GITHUB_REPOSITORY hiddify-config
         setenv GITHUB_BRANCH_OR_TAG main
         
