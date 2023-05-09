@@ -4,7 +4,7 @@
 
 
 
-[**![Lang_farsi](https://user-images.githubusercontent.com/125398461/234186932-52f1fa82-52c6-417f-8b37-08fe9250a55f.png) &nbsp;فارسی**](https://github.com/hiddify/hiddify-config/blob/main/README_fa.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**![Lang_Chinese](https://user-images.githubusercontent.com/125398461/236453142-16f3a81e-8f40-403d-a452-34c4c9ed8f64.png) 中国人**](https://github.com/hiddify/hiddify-config/blob/main/README_cn.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Português](https://www.curitiba.pr.leg.br/atividade-parlamentar/legislacao/imagens/bandeira-do-brasil.png/image) Português][![](https://img.shields.io/badge/%20Wiki-Page-808080?style=flat-square)](https://github.com/hiddify/hiddify-config/wiki)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://img.shields.io/badge/FAQ-Here-512DA8?style=flat-square&logo=Favro)](https://github.com/hiddify/hiddify-config/discussions/categories/q-a-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B1%D8%A7%DB%8C%D8%AC)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://img.shields.io/badge/Report-Bugs-F67909?style=flat-square&logo=Open-Bug-Bounty)](https://github.com/hiddify/hiddify-config/issues)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[**![Lang_farsi](https://user-images.githubusercontent.com/125398461/234186932-52f1fa82-52c6-417f-8b37-08fe9250a55f.png) &nbsp;فارسی**](https://github.com/hiddify/hiddify-config/blob/main/README_fa.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**![Lang_Chinese](https://user-images.githubusercontent.com/125398461/236453142-16f3a81e-8f40-403d-a452-34c4c9ed8f64.png) 中国人**](https://github.com/hiddify/hiddify-config/blob/main/README_cn.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Português](https://www.curitiba.pr.leg.br/aparlamentar/legislacao/imagens/bandeira-do-brasil.png/image) Português][![](https://img.shields.io/badge/%20Wiki-Page-808080?style=flat-square)](https://github.com/hiddify/hiddify-config/wiki)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://img.shields.io/badge/FAQ-Here-512DA8?style=flat-square&logo=Favro)](https://github.com/hiddify/hiddify-config/discussions/categories/q-a-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B1%D8%A7%DB%8C%D8%AC)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://img.shields.io/badge/Report-Bugs-F67909?style=flat-square&logo=Open-Bug-Bounty)](https://github.com/hiddify/hiddify-config/issues)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 </br>
@@ -31,7 +31,7 @@
 )](https://telegram.com/hiddify/)
 
 
-[![Telegram Channel](https://img.shields.io/endpoint?label=Telegram&style=plastic&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fhiddify)](https://telegram.dog/hiddify)
+[![Canal do Telegram](https://img.shields.io/endpoint?label=Telegram&style=plastic&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fhiddify)](https://telegram.dog/hiddify)
 [![Telegram Group](https://img.shields.io/endpoint?color=neon&label=Support%20Group&style=plastic&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fhiddify_board)](https://telegram.dog/hiddify_board)
 [![Youtube](https://img.shields.io/youtube/channel/views/UCxrmeMvVryNfB4XL35lXQNg?label=Youtube&style=plastic)](https://www.youtube.com/@hiddify)
 [![Twitter](https://img.shields.io/twitter/follow/hiddify_com?label=Twitter&style=plastic)](https://twitter.com/intent/follow?screen_name=hiddify_com)
@@ -41,17 +41,17 @@
 
 <div dir="ltr" markdown="1">
 
-## Welcome to Hiddify
+## Bem-vindo(a) ao Hiddify 
+O Hiddify é uma caixa de ferramentas anti-censura poderosa e profissional, que é um painel multiusuário com um instalação sem esforço e <b>compatível com mais de 20 protocolos</b> incluindo <b>Reality</b> e 
+ <b>Proxy do Telegram</b> para contornar a filtragem. É otimizado para contornar a censura na <b>China</b>, <b>Russia</b> e <b>Iran</b> e recomendo por <a href="https://github.com/XTLS/Xray-core#installation" target="_blank"><b>Xray</b></a>. É uma ótima substituição do painel X-UI.
 
-Hiddify is a powerful and professional anti-censorship toolbox, which is a multi-user panel with an effortless installation and <b>supporting more than 20 protocols</b> including <b>Reality</b> and <b>Telegram proxy</b> to circumvent filtering.  It's optimized for censorship circumvention in <b>China</b>, <b>Russia</b> and <b>Iran</b> and Recommended by <a href="https://github.com/XTLS/Xray-core#installation" target="_blank"><b>Xray</b></a>. It's a great replacement of X-UI panel.
 
-
-![English new 2](https://user-images.githubusercontent.com/125398461/234265624-36ee0a18-d4e8-4803-a9ad-331a7c5998e3.png)
+![Nova versão em Inglês 2](https://user-images.githubusercontent.com/125398461/234265624-36ee0a18-d4e8-4803-a9ad-331a7c5998e3.png)
 
 
 
 <!--
-![English new](https://user-images.githubusercontent.com/125398461/234178583-ad520732-4cf3-411a-abec-0dfb42387869.png)
+![Novo em inglês](https://user-images.githubusercontent.com/125398461/234178583-ad520732-4cf3-411a-abec-0dfb42387869.png)
 ![english_demo](https://user-images.githubusercontent.com/114227601/228011984-83b1f981-aede-438e-920d-113d9894477a.png)
 
 ![English_Demo](https://user-images.githubusercontent.com/125398461/233846740-a1ff94a6-9031-40fd-ab3a-238dbeae9b0f.png)
@@ -61,27 +61,28 @@ Hiddify is a powerful and professional anti-censorship toolbox, which is a multi
 
 ***
 
-### Table of Contents
-- [Why Hiddify?](#why-hiddify)
-- [Installation Guide](#installation-guide-)
-  - [Prerequisites](#prerequisites)
-  - [Quick installation](#quick-installation)
-  - [Typical installation](#typical-installation)
-- [Configuration Guide](#configuration-guide)
+### Índice
+- [O que é Hiddify?](#why-hiddify)
+- [Guia de instalação](#installation-guide-)
+  - [Pré-requisitos](#prerequisites)
+  - [Instalação rápida](#quick-installation)
+  - [Instalação típica](#typical-installation)
+- [Guia para configuração](#configuration-guide)
 - [Wiki](#wiki)
-- [Donation and Support](#donation-and-support)
-- [Collaboration and Contact Information](#collaboration-and-contact-information)
+- [Doação e suporte](#donation-and-support)
+- [Colaboração e informações para contato ](#collaboration-and-contact-information)
 
 
 ***
-## Why Hiddify?
-Hiddify is a mixture of Hidden and Simplify. A feature-full panel with a wide range of capabilities that helps you enjoy surfing free internet with ease and peace Of mind. 
+### o que é Hiddify?
 
-### Attractive features
-- **Quick installation**
-- **Smart proxy** (Hiddify and Clash client)
-- **Automatic update**
-- **Automatic backup** (every 6 hours)
+Hiddify é uma mistura de Hidden e Simplify. Um painel completo com uma ampla gama de recursos que ajuda você a navegar na Internet gratuitamente com facilidade e tranquilidade.
+
+### Recursos atraentes
+- **Instalação rápida**
+- **Smart proxy** (Hiddify e Clash client)
+- **Atualização automática**
+- **Backup automático** (há cada 6 horas)
 - **Automatic connection to Cloudflare**
 - Using **multiple domains**
 - **Auto CDN IP** configuration capability
