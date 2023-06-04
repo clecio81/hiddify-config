@@ -7,14 +7,14 @@ su hiddify-panel -c update-locale LANG=C.UTF-8
 
 chown -R hiddify-panel:hiddify-panel  .
 # apt install -y python3-dev
-for req in pip3 uwsgi  python3 hiddifypanel lastversion jq;do
+for req in pip3 uwsgi  python3 hiddifypanel==6.5.4 lastversion jq;do
     which $req > /dev/null 2>&1
     if [[ "$?" != 0 ]];then
             apt --fix-broken install -y
             apt update
             apt install -y python3-pip jq python3-dev
             pip3 install pip 
-            pip3 install -U hiddifypanel lastversion  uwsgi "requests<=2.29.0"
+            pip3 install -U hiddifypanel=6.5.4 lastversion  uwsgi "requests<=2.29.0"
             break
     fi
 done
